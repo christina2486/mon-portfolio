@@ -2,11 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import Portfolio from '../../vite-project/src/Portfolio';
+import Portflio from '../../vite-project/src/Portflio';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Portfolio />
+    <Portflio />
   </React.StrictMode>
 );
 
