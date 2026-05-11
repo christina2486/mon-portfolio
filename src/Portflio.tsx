@@ -4,7 +4,7 @@ interface Props {
   onBack: () => void;
 }
 
-export default function Portflio({ onBack }: Props) {
+export default function Portflio({}: Props) {
   const cvPath = "/assets/cv1.pdf";
   const [showPopup, setShowPopup] = useState(false);
   const [message, setMessage] = useState("");
@@ -135,9 +135,7 @@ export default function Portflio({ onBack }: Props) {
 
   return (
     <div style={styles.container}>
-      <button style={styles.backButton} onClick={onBack}>
-        ⬅ Retour
-      </button>
+     
 
       {/* POPUP WHATSAPP */}
       {showPopup && (
