@@ -31,8 +31,8 @@ export default function Portflio({}: Props) {
       <p style={styles.ongletTexte}>
         Je suis Étudiante en informatique passionné par le développement web et les nouvelles technologies.
         J'aime créer des applications et résoudre des problèmes techniques. Je travaille avec des technologies comme HTML, CSS, JavaScript et React,
-        et je cherche constamment à améliorer mes compétences à travers des projets pratiques et l'apprentissage continu.
-        J'ai effectué un stage de trois mois au sein du PNUD. Mon objectif est de continuer à évoluer dans le développement web et mobile.
+        et je cherche constamment à améliorer mes compétences à travers des projets pratiques et l'apprentissage continu. Mon objectif est de continuer 
+        à évoluer dans le développement web et mobile.
         Si vous souhaitez en apprendre plus sur moi, ou me contacter, n'hésitez plus, vous pouvez explorer ce site ou télécharger mon CV en pdf !
       </p>
     ),
@@ -284,16 +284,7 @@ export default function Portflio({}: Props) {
           <div style={styles.socials}>
             <a href={cvPath} target="_blank" rel="noreferrer" style={styles.cvButton}>
               📄 Mon CV
-            </a>
-            <a href="https://www.facebook.com/christine.razafindravao" target="_blank" rel="noreferrer">
-              <img src="/assets/facebook.svg" alt="Facebook" style={styles.icon} />
-            </a>
-            <img
-              src="/assets/whatsapp.svg"
-              alt="WhatsApp"
-              style={styles.icon}
-              onClick={() => setShowPopup(true)}
-            />
+              </a>    
           </div>
         </section>
 
